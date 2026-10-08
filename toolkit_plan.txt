@@ -1,0 +1,65 @@
+PERSONAL MINI-TOOLKIT - PLAN
+============================
+
+1. TOOLS IN MY TOOLKIT AND WHAT EACH ONE DOES
+---------------------------------------------
+Tool 1 - To-Do List:
+  Lets the user add, show and remove tasks from a list that keeps changing
+  while the program runs.
+
+Tool 2 - Number Guessing Game:
+  The computer picks a secret number from 1 to 20 and the user has 5 tries
+  to guess it, getting "too low" or "too high" hints.
+
+Tool 3 - Simple Calculator:
+  Takes two numbers and an operation (+, -, *, /) and prints the result,
+  without crashing on bad input or division by zero.
+
+Tool 4 - Name Formatter:
+  Takes a full name and shows it in Title Case, UPPER CASE, with the
+  initials and the number of letters.
+
+
+2. EXACT MENU TEXT
+------------------
+========================================
+   PERSONAL MINI-TOOLKIT
+========================================
+1. To-Do List
+2. Number Guessing Game
+3. Simple Calculator
+4. Name Formatter
+5. Quit
+Choose an option (1-5):
+
+
+3. CONCEPTS EACH TOOL USES
+--------------------------
+Main menu:
+  - while loop that repeats until Quit
+  - if / elif / else to route the choice
+  - friendly message for invalid choices (no crash)
+  - f-strings for messages
+
+To-Do List:
+  - LIST that changes (append, remove, in)
+  - while loop for its own sub-menu
+  - for loop to print numbered tasks
+  - if / elif / else
+
+Number Guessing Game:
+  - while loop (up to 5 tries)
+  - if / elif / else (too low, too high, correct)
+  - try / except to handle input that is not a number
+  - f-strings
+
+Simple Calculator:
+  - if / elif / else to choose the operation
+  - try / except for invalid numbers
+  - conditional check for division by zero
+  - f-strings
+
+Name Formatter:
+  - for loop over the words in the name to build the initials
+  - if to catch an empty name
+  - string methods and f-strings
